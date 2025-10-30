@@ -26,7 +26,7 @@ const Roadmap = () => {
   ];
 
   return (
-    <section className="py-20 bg-[#0f0f0f] text-white">
+    <section className="py-20 bg-[#0f0f0f] text-white px-5">
       <h2 className="text-4xl font-extrabold text-center mb-16">
         Project <span className="text-pink-400">Roadmap</span>
       </h2>
