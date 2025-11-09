@@ -1,29 +1,31 @@
 import React from "react";
 import { FaEye, FaRocket, FaGlobe } from "react-icons/fa";
+import { IoDiamondSharp } from "react-icons/io5";
+import { FaCrown } from "react-icons/fa6";
 
 const Vision = () => {
   const cards = [
     {
-      icon: <FaEye className="text-4xl text-pink-400 mb-4" />,
-      title: "Our Vision",
-      text: "Empowering creators and collectors through the limitless possibilities of blockchain technology.",
+      icon: <FaEye className="text-4xl text-[#00bf62] mb-4" />,
+      title: "Seeker Pass",
+      text: "Entry to the Geckura ecosystem. Get early access to tools and Discord utilities",
     },
     {
-      icon: <FaRocket className="text-4xl text-pink-400 mb-4" />,
-      title: "Our Mission",
-      text: "To revolutionize digital ownership by creating a seamless, transparent, and inspiring NFT ecosystem.",
+      icon: <IoDiamondSharp className="text-4xl text-[#00bf62] mb-4" />,
+      title: "Disciple Pass",
+      text: "Unlock premium analytics, faster data refresh, and private alpha channels",
     },
     {
-      icon: <FaGlobe className="text-4xl text-pink-400 mb-4" />,
-      title: "Our Goal",
-      text: "Connecting artists and communities worldwide through innovation and decentralized creativity.",
+      icon: <FaCrown className="text-4xl text-[#00bf62] mb-4" />,
+      title: "Founder Pass",
+      text: "Lifetime access to all future utilities, AI assistants, and agent integrations",
     },
   ];
 
   return (
     <section className="py-16 bg-[#0f0f0f] text-center text-white">
       <h2 className="text-4xl font-extrabold mb-12">
-        Our <span className="text-pink-400">Vision</span>
+        Our <span className="text-[#00bf62]">Vision</span>
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
@@ -33,7 +35,7 @@ const Vision = () => {
             className="bg-zinc-900 rounded-2xl p-8 flex flex-col items-center shadow-lg hover:scale-105 transition-transform duration-300"
           >
             {card.icon}
-            <h3 className="text-2xl font-semibold mb-3 text-pink-300">
+            <h3 className="text-2xl font-semibold mb-3 text-[#00bf62]">
               {card.title}
             </h3>
             <p className="text-gray-400 text-sm">{card.text}</p>
