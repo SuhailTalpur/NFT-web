@@ -12,7 +12,7 @@ const Header = () => {
 
   {/* Navbar */}
   <nav className="flex items-center justify-between px-8 py-4 relative z-20">
-    <div className="text-2xl font-bold text-[#00bf62]">Gekura</div>
+    <div className="text-2xl font-myfont font-medium text-[#00bf62]">Gekura</div>
     
     {/* Desktop Menu */}
     <ul className="hidden md:flex space-x-6 text-[#fff1f2] font-medium">
@@ -119,7 +119,7 @@ const Header = () => {
     {/* Right: Heading */}
     <div className="md:w-1/2 flex flex-col items-center md:items-start justify-center">
       <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
-        <span className="text-[#00bf62]">Geckura</span> The Trading Alchemist
+        <span className="text-[#00bf62] font-myfont font-medium">Geckura</span> The Trading Alchemist
       </h1>
       <p className="text-gray-700 text-lg max-w-md">
         Welcome to Geckura, an ecosystem born from Solana’s pulse — blending instinct, technology, and a hint of alchemy

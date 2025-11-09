@@ -3,3 +3,17 @@
 .inter {
   font-family: "Inter", sans-serif;
 }
+
+.font-myfont {
+  font-family: "MyFont", sans-serif;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/fonts/gliker-regular.woff2") format("woff2"),
+       url("./assets/fonts/gliker-regular.woff") format("woff"),
+       url("./assets/fonts/gliker-regular.eot") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

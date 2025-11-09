@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 pt-4 flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Left: Brand */}
         <div className="text-center md:text-left">
-          <h2 className="text-2xl font-bold text-[#00bf62]">Geckura</h2>
+          <h2 className="text-2xl font-myfont font-medium text-[#00bf62]">Geckura</h2>
           <p className="text-sm text-gray-400 mt-2">
             Trade smarter. Move cleaner. Flow with Geckura.
           </p>
