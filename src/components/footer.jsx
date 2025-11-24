@@ -52,13 +52,15 @@ const Footer = () => {
         {/* Right: Socials */}
         <div className="flex justify-center md:justify-end gap-4 text-pink-400 text-xl">
           <a
-            href="#"
+            href="https://x.com/Geckura"
+            target="_blank"
             className="hover:text-[#00bf62]/60 text-[#00bf62] transition-transform duration-300 hover:scale-110"
           >
             <FaTwitter />
           </a>
           <a
-            href="#"
+            href="https://discord.gg/p9MQH3G5CU"
+            target="_blank"
             className="hover:text-[#00bf62]/60 text-[#00bf62] transition-transform duration-300 hover:scale-110"
           >
             <FaDiscord />

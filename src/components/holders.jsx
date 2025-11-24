@@ -12,14 +12,14 @@ const Holders = () => {
     },
     {
       icon: <FaCoins className="text-5xl text-white mb-4" />,
-      title: "Instant Insights",
-      desc: "NFT floor changes, token movements, and alerts",
+      title: "Revenue Share",
+      desc: "40% community rev-share distributed to holders & stakers.",
       gradient: "from-purple-500 via-pink-400 to-indigo-400",
     },
     {
       icon: <TbWheel className="text-5xl text-white mb-4" />,
-      title: "Customizable Dashboards",
-      desc: "Personalize what data matters most",
+      title: "Staking",
+      desc: "Stake $GECKURA and earn passive rewards.",
       gradient: "from-blue-600 via-cyan-600 to-teal-600",
     },
   ];

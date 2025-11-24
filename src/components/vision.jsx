@@ -7,18 +7,18 @@ const Vision = () => {
   const cards = [
     {
       icon: <FaEye className="text-4xl text-[#00bf62] mb-4" />,
-      title: "Seeker Pass",
-      text: "Entry to the Geckura ecosystem. Get early access to tools and Discord utilities",
+      title: "Goal",
+      text: "To become the #1 AI-powered ecosystem in Web3.",
     },
     {
       icon: <IoDiamondSharp className="text-4xl text-[#00bf62] mb-4" />,
-      title: "Disciple Pass",
-      text: "Unlock premium analytics, faster data refresh, and private alpha channels",
+      title: "Mission",
+      text: "Give users access to tools that help them build, create, automate, and earn without limits.",
     },
     {
       icon: <FaCrown className="text-4xl text-[#00bf62] mb-4" />,
-      title: "Founder Pass",
-      text: "Lifetime access to all future utilities, AI assistants, and agent integrations",
+      title: "Future",
+      text: "Merging AI + Blockchain into a community-driven powerhouse.",
     },
   ];
 

@@ -7,6 +7,9 @@ import Vision from './components/vision'
 import Roadmap from './components/roadmap'
 import Holders from './components/holders'
 import Footer from './components/footer'
+import Story from './components/story'
+import Ecosystem from './components/ecosystem'
+import Faq from './components/faq'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +29,16 @@ function App() {
         <Header />
       </section>
 
+      {/* Story section (target: #story) */}
+      <section id="">
+        <Story />
+      </section>
+
+      {/* Ecosystem section (target: #ecosystem) */}
+      <section id="">
+        <Ecosystem />
+      </section>
+
       {/* Vision section (target: #vision) */}
       <section id="vision">
         <Vision />
@@ -37,8 +50,13 @@ function App() {
       </section>
 
       {/* Benefits section (target: #benefits) — mapped to Holders component */}
-      <section id="benefits">
-        <Holders />
+        <section id="benefits">
+          <Holders />
+        </section>
+
+      {/* FAQ section (target: #faq) */}
+      <section id="faq">
+        <Faq />
       </section>
 
       <Footer />
